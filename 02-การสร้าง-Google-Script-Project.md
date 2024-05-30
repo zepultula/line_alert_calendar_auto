@@ -16,7 +16,7 @@
 function dEventMessageIT() {
 
 //ประกาศตัวแปร googleCaelndarId หมายถึง รหัสปฏิทิน (ใส่ในช่อง "xxxxxxxxxxxxxxx" ภายใน " " )
-  var googleCalendarId = "zepultula7@gmail.com";
+  var googleCalendarId = "Your calendar ID";
 
 
 //ประกาศตัวแปร calendar เป็นการเรียก API(CalendarApp) มาทำงานโดยดึงค่า getCalendarById จาก (googleCalendarId) มาใช้งาน
@@ -77,7 +77,7 @@ function dEventMessageIT() {
 
 function sendMessage(message) {
   var lineNotifyEndPoint = "https://notify-api.line.me/api/notify";
-  var accessToken = "APuZWnuiQVU9KlOzSzgHt2QIbLcdmOR6rSEdv8q7Amv"; //ทำการแทรก Token ของตนเอง 
+  var accessToken = "Your Token KEY"; //ทำการแทรก Token ของตนเอง 
   var formData = {
     "message": message
   };
